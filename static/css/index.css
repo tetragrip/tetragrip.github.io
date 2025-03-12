@@ -155,3 +155,19 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+}
+
+video {
+  max-width: 100%; /* Ensure it doesn't overflow */
+  height: auto;
+}
+
+#abstract {
+  margin-bottom: 40px; /* Adjust as needed */
+}
